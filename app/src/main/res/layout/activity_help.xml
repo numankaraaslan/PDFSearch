@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpAct">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textSize="18sp"
+        android:text="Hello dear user. Here are some tips about what you can do with the PDFSearch app.\n\nIf you are usually dealing with pdf files on your phone, this app is tailored for you.\nYou can search one word or multiple words (seperated with comma) in a pdf file.\nYou can search for a sentence in a pdf gile.\nYou can search one word or multiple words (seperated with comma) in multiple pdf files together.\nThe search is carried out page by page.\nThis app is designed to be simple and useful and it does not require internet connection.\n\nThis app is not designed to view pdf files, it is designed to search inside them.\nThis app is not designed to search pdf files in your phone or on the internet.\nThis app does not open pdf files on the internet.\nThis app may not be able read the content of all the pdf files correctly, since pdf files may be read protected."
+        tools:ignore="HardcodedText" />
+</ScrollView>

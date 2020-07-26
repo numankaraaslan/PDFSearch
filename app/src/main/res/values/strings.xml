@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PDFSearch</string>
+    <string name="tab_simple_search">Single File</string>
+    <string name="tab_advanced_search">Multiple File</string>
+    <string name="singular_search">Single Word</string>
+    <string name="multiple_search">Multiple Words</string>
+    <string name="singular_search_hint">Word</string>
+    <string name="multiple_search_hint">Word,Word,Word</string>
+    <string name="search_and">AND</string>
+    <string name="search_or">OR</string>
+    <string name="btn_select_file">Select</string>
+    <string name="btn_search">Search</string>
+    <string name="page">Page</string>
+    <string name="selected_file">File: </string>
+    <string name="error">Error</string>
+    <string name="permissons_required">External storage permisson is required to read files</string>
+    <string name="ok">OK</string>
+    <string name="go_to_file">Details</string>
+    <string name="selected_filea">"Selected files: "</string>
+    <string name="error_reading_file">There was an error reading the pdf. It may be protected.</string>
+    <string name="no_result_found">Not found</string>
+    <string name="file_selection_info">Tap and hold a file to select multiple!</string>
+    <string name="info">Attention</string>
+    <string name="help">Help</string>
+    <string name="back">Back</string>
+    <string name="search_text_warning">Please write the search term first</string>
+</resources>

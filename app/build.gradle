@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Android Keystore\\keys.jks')
+            storePassword '321321321'
+            keyAlias 'mykeys'
+            keyPassword '321321321'
+        }
+        release {
+            storeFile file('C:\\Android Keystore\\keys.jks')
+            storePassword '321321321'
+            keyPassword '321321321'
+            keyAlias 'mykeys'
+        }
+    }
+    compileSdkVersion 29
+    buildToolsVersion '30.0.1'
+
+    defaultConfig {
+        applicationId "com.numankaraaslan.pdfsearch"
+        minSdkVersion defaultMinSdkVersion
+        targetSdkVersion 29
+        versionCode 2
+        versionName "2.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    // https://mvnrepository.com/artifact/com.itextpdf/itextpdf
+    implementation group: 'com.itextpdf', name: 'itextpdf', version: '5.5.13.1'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+}

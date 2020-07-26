@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PDFSearch</string>
+    <string name="tab_simple_search">Tek Dosya</string>
+    <string name="tab_advanced_search">Çoklu Dosya</string>
+    <string name="singular_search">Tek Kelime</string>
+    <string name="multiple_search">Birden Fazla Kelime</string>
+    <string name="singular_search_hint">Kelime</string>
+    <string name="multiple_search_hint">Kelime,Kelime,Kelime</string>
+    <string name="search_and">VE</string>
+    <string name="search_or">VEYA</string>
+    <string name="btn_select_file">Dosya</string>
+    <string name="btn_search">Ara</string>
+    <string name="page">Sayfa</string>
+    <string name="selected_file">Seçilen: </string>
+    <string name="error">Hata</string>
+    <string name="permissons_required">Dosyaların okunabilmesi için erişim izni gerekmektedir.</string>
+    <string name="ok">Tamam</string>
+    <string name="go_to_file">Detay</string>
+    <string name="selected_filea">"Seçilenler: "</string>
+    <string name="error_reading_file">Bu dosya okunamamaktadır.</string>
+    <string name="no_result_found">Sonuç bulunamadı</string>
+    <string name="file_selection_info">Dosyaya basılı tutarak çoklu seçim moduna geçebilirsiniz.</string>
+    <string name="info">Dikkat</string>
+    <string name="help">Help</string>
+    <string name="back">Back</string>
+    <string name="search_text_warning">Please write the search term first</string>
+</resources>
