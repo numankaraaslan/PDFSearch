@@ -1,22 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        debug {
-            storeFile file('C:\\Android Keystore\\keys.jks')
-            storePassword '321321321'
-            keyAlias 'mykeys'
-            keyPassword '321321321'
-        }
-        release {
-            storeFile file('C:\\Android Keystore\\keys.jks')
-            storePassword '321321321'
-            keyPassword '321321321'
-            keyAlias 'mykeys'
-        }
-    }
     compileSdkVersion 29
-    buildToolsVersion '30.0.1'
+    buildToolsVersion '30.0.2'
 
     defaultConfig {
         applicationId "com.numankaraaslan.pdfsearch"
@@ -40,10 +26,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
     // https://mvnrepository.com/artifact/com.itextpdf/itextpdf
-    implementation group: 'com.itextpdf', name: 'itextpdf', version: '5.5.13.1'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation group: 'com.itextpdf', name: 'itextpdf', version: '5.5.13.2'
 
 }

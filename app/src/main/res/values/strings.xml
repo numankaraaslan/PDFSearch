@@ -24,4 +24,6 @@
     <string name="help">Help</string>
     <string name="back">Back</string>
     <string name="search_text_warning">Please write the search term first</string>
+    <string name="blog">blog</string>
+    <string name="linkedin">linkedin</string>
 </resources>

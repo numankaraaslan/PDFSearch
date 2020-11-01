@@ -5,11 +5,42 @@
     android:layout_height="match_parent"
     tools:context=".HelpAct">
 
-    <com.google.android.material.textview.MaterialTextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10sp"
-        android:textSize="18sp"
-        android:text="Merhaba kullanıcı. Burada PDFSearch uygulaması ile neler yapabileceğin hakkında bazı bilgiler yer alıyor.\n\nEğer birçok pdf dosyası ile sürekli uğraşıyorsanız bu küçük uygulama tam size göre.\nBu uygulama ile bir pdf dosyasında bir kelimeyi veya virgül ile ayırarak birden fazla kelimeyi aynı anda aratabilirsiniz.\nBu uygulama ile bir pdf dosyasında bir cümle de aratabilirsiniz.\nBu uygulama ile birden fazla pdf dosyasında bir kelimeyi veya virgül ile ayırarak birden fazla kelimeyi aynı anda aratabilirsiniz.\nArama sayfa bazında yapılmaktadır.\nBasit ve kullanışlı olması için tasarlanan bu uygulama internet gerektirmez.\n\nBu uygulama pdf görüntülemek üzere değil içerisinde aramak üzerine geliştirilmiştir.\nBu uygulama ile telefonunuzdaki veya internetteki pdf dosyalarını arayıp bulmak için tasarlanmamıştır.\nBu uygulama ile internet üzerindeki herhangi bir dosyayı açamazsınız.\nBu uygulama her pdf dosyasında doğru arama yapamayabilirsiniz. Pdf dosyaları okunmamak üzere hazırlanmış olabilmektedir.\n"
-        tools:ignore="HardcodedText" />
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:textSize="18sp"
+            android:text="Merhaba kullanıcı. Burada PDFSearch uygulaması ile neler yapabileceğin hakkında bazı bilgiler yer alıyor.\n\nEğer birçok pdf dosyası ile sürekli uğraşıyorsanız bu küçük uygulama tam size göre.\nBu uygulama ile bir pdf dosyasında bir kelimeyi veya virgül ile ayırarak birden fazla kelimeyi aynı anda aratabilirsiniz.\nBu uygulama ile bir pdf dosyasında bir cümle de aratabilirsiniz.\nBu uygulama ile birden fazla pdf dosyasında bir kelimeyi veya virgül ile ayırarak birden fazla kelimeyi aynı anda aratabilirsiniz.\nArama sayfa bazında yapılmaktadır.\nBasit ve kullanışlı olması için tasarlanan bu uygulama internet gerektirmez.\n\nBu uygulama pdf görüntülemek üzere değil içerisinde aramak üzerine geliştirilmiştir.\nBu uygulama ile telefonunuzdaki veya internetteki pdf dosyalarını arayıp bulmak için tasarlanmamıştır.\nBu uygulama ile internet üzerindeki herhangi bir dosyayı açamazsınız.\nBu uygulama her pdf dosyasında doğru arama yapamayabilirsiniz. Pdf dosyaları okunmamak üzere hazırlanmış olabilmektedir.\n"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_blog"
+                android:layout_width="96sp"
+                android:layout_height="96sp"
+                android:padding="10sp"
+                android:src="@drawable/img_blog_selector"
+                android:contentDescription="@string/blog" />
+
+            <ImageView
+                android:id="@+id/img_linkedin"
+                android:layout_width="96sp"
+                android:layout_height="96sp"
+                android:padding="10sp"
+                android:src="@drawable/img_linkedin_selector"
+                android:contentDescription="@string/linkedin" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </ScrollView>

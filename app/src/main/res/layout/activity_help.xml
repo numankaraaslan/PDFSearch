@@ -5,11 +5,42 @@
     android:layout_height="match_parent"
     tools:context=".HelpAct">
 
-    <com.google.android.material.textview.MaterialTextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10sp"
-        android:textSize="18sp"
-        android:text="Hello dear user. Here are some tips about what you can do with the PDFSearch app.\n\nIf you are usually dealing with pdf files on your phone, this app is tailored for you.\nYou can search one word or multiple words (seperated with comma) in a pdf file.\nYou can search for a sentence in a pdf gile.\nYou can search one word or multiple words (seperated with comma) in multiple pdf files together.\nThe search is carried out page by page.\nThis app is designed to be simple and useful and it does not require internet connection.\n\nThis app is not designed to view pdf files, it is designed to search inside them.\nThis app is not designed to search pdf files in your phone or on the internet.\nThis app does not open pdf files on the internet.\nThis app may not be able read the content of all the pdf files correctly, since pdf files may be read protected."
-        tools:ignore="HardcodedText" />
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:textSize="18sp"
+            android:text="Hello dear user. Here are some tips about what you can do with the PDFSearch app.\n\nIf you are usually dealing with pdf files on your phone, this app is tailored for you.\nYou can search one word or multiple words (seperated with comma) in a pdf file.\nYou can search for a sentence in a pdf gile.\nYou can search one word or multiple words (seperated with comma) in multiple pdf files together.\nThe search is carried out page by page.\nThis app is designed to be simple and useful and it does not require internet connection.\n\nThis app is not designed to view pdf files, it is designed to search inside them.\nThis app is not designed to search pdf files in your phone or on the internet.\nThis app does not open pdf files on the internet.\nThis app may not be able read the content of all the pdf files correctly, since pdf files may be read protected.\nYou can reach the developer with the links below."
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_blog"
+                android:layout_width="96sp"
+                android:layout_height="96sp"
+                android:padding="10sp"
+                android:src="@drawable/img_blog_selector"
+                android:contentDescription="@string/blog" />
+
+            <ImageView
+                android:id="@+id/img_linkedin"
+                android:layout_width="96sp"
+                android:layout_height="96sp"
+                android:padding="10sp"
+                android:src="@drawable/img_linkedin_selector"
+                android:contentDescription="@string/linkedin" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </ScrollView>
